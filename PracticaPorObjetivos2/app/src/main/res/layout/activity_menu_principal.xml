@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textSize="16pt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/lblNombreMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16pt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnConsulMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="14pt"
+            android:text="Consultar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnBorrarMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="14pt"
+            android:text="Borrar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnSalirMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="14pt"
+            android:text="Salir"/>
+    </LinearLayout>
+
+</LinearLayout>
